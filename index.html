@@ -12,7 +12,15 @@
 <body>
 	<form action="/" method="POST">
     <label for="user-name">Your name</label>
-		<input type="text" name="user-data" id="user-name" />
+		<input type="text" name="user-data" id="user-name">
+    <label for="user-email">Your email address</label>
+    <input type="email" name="user-email" id="user-email">
+    <label for="age">Your age</label>
+    <input type="number" step="1" name="user-age" id="user-age">
+    <label for="user-password">Password</label>
+    <input type="password" name="user-password">
+    <label for="user-birthdate">Your birthdate</label>
+    <input type="date" id="birthdate" name="user-birthdate">
 	  <button>Submit</button>
 	</form>
 </body>
