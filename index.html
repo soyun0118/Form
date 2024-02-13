@@ -21,6 +21,10 @@
     <input type="password" name="user-password">
     <label for="user-birthdate">Your birthdate</label>
     <input type="date" id="birthdate" name="user-birthdate">
+
+    <label for="user-massage">Your message</label>
+    <textarea id="user-massage" name="usermassage"></textarea>
+
     <hr>
     <h2>How should we verify your account?</h2>
     <div class="form-control-inline">
@@ -35,6 +39,22 @@
       <input type="radio" id="verify-email" name="verify" value="email">
       <label for="verify-email">Email</label>
     </div>
+
+    <div class="form-control-inline">
+      <input type="checkbox" id="agree-terms" name="terms">
+      <label for="agree-terms">I agree to terms and conditions</label>
+    </div>
+
+    <div class="form-control-inline">
+      <input type="checkbox" id="contact-email" name="contact">
+      <label for="contact-email">Contact me via email</label>
+    </div>
+    <div class="form-control-inline">
+      <input type="checkbox" id="contact-phone" name="contact">
+      <label for="contact-phone">Contact me via phone</label>
+    </div>
+    
+
 	  <button>Submit</button>
 	</form>
 </body>
