@@ -4,6 +4,17 @@ body {
   margin: 8rem;
 }
 
+.main-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: ghostwhite;
+  padding: 0 1rem;
+}
+
 h1 {
   text-align: center;
   color: ghostwhite;
@@ -32,7 +43,7 @@ textarea {
   resize: vertical;
 }
 
-input, 
+input,
 textarea,
 select {
   width: 100%;
@@ -65,7 +76,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(71, 105, 90)
+  background-color: rgb(71, 105, 90);
 }
 
 .form-control-inline {

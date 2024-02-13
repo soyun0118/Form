@@ -1,0 +1,22 @@
+
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+
+.buttons button {
+  margin-left: 0.5rem;
+}
+
+#clear {
+  background-color: rgb(71, 105, 90);
+  transition: 0.25s;
+}
+
+#clear:hover,
+#submit:hover {
+  background-color: ghostwhite;
+  color: black;
+}
